@@ -127,3 +127,41 @@ int main(void)
     return 1;
 }
 ```
+
+## 버블정렬
+
+---
+
+- Big O
+  - (n-1) \* (n-1) -> O(n^2)
+- Omega
+  - same although numbers are already sorted
+  - Omega(n^2)
+
+```pseudo
+Repeat n-1 times
+    For i from 0 to n-2
+        If i'th and i+1'th elements out of order
+            Swap them
+```
+
+## 선택정렬
+
+---
+
+- Big O
+  - n + (n-1) + (n-2) + ... + 1 => n(n+1)/2
+  - O(n^2)
+- Omega
+  - same as Bubble sort
+  - Omega(n^2)
+
+```pseudo
+For i from 0 to n-1
+    Find smallest item between 1'th item and last item
+        Swap smallest item with 1th item
+``
+
+## 정렬알고리즘의 선택시간
+___
+```
