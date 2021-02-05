@@ -14,14 +14,29 @@ public class Concept_toOne {
         int temp = 0;
         int cnt = 0;
         for(int i = 0; i < 5; i++){
-            if(n%k == 0){
-                temp = n/k;
-                cnt++;
+            if(n != 0){
+                if(n%k == 0){
+                    temp = n/k;
+                    n = temp;
+                    cnt++;
+                }else{
+                    n--;
+                    cnt++;
+                }
             }else{
-                n--;
-                cnt++;
+                break;
             }
+            if(n == 0){
+                break;
+            }
+            System.out.println(i + " : " + n);
+            System.out.println("cnt" + i + ":" + cnt);
+
+
+
         }
-        System.out.println(cnt);
+        System.out.println("cnt : " + cnt);
     }
+
 }
+
