@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Back1978_PrimeNumber {
+public class Beck1978_PrimeNumber {
 
     public static void main(String[] args) {
         Scanner sc = new  Scanner(System.in);
