@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Back10818_MaxMin {
+public class Baek10818_MaxMin {
     public static void main(String[] args) {
         //n개의 정수를 입력 받기 위한 스캐너
         Scanner sc = new Scanner(System.in);
